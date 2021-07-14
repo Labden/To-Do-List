@@ -1,0 +1,7 @@
+<div class="border" *ngFor="let item in items">
+
+<p>Task: {{item.task}}</p>
+<p>Completed: {{item.completed}}</p>
+
+<button (click)="completed">{{item.task}} has been completed</button>
+</div>
